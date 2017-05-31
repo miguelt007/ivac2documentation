@@ -1,0 +1,112 @@
+# Copyright (c) 2016-2017 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: IVAO Portugal Documentation
+site_description: Portuguese Division Documentation for IVAC2
+site_author: IVAO PT
+site_url: http://IVAOPT.github.io/ivac2documentation
+edit_uri: edit/master/docs/
+
+# Repository
+repo_name: ivaopt/ivac2documentation
+repo_url: https://github.com/ivaopt/ivac2documentation
+
+# Copyright
+copyright: 'Copyright &copy; 2017 IVAO Portugal'
+
+# Theme directory
+theme_dir: material
+
+# Options
+extra:
+  feature:
+    tabs: false
+  palette:
+    primary: blue
+    accent: indigo
+  social:
+    - type: facebook
+      link: http://facebook.com/ivaopt
+    - type: github-alt
+      link: https://github.com/ivaopt
+    - type: twitter
+      link: https://twitter.com/ivaopt
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc(permalink=true)
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+
+# Pages   - Based on IVAO CH struture 
+pages:
+  - Index: index.md
+  #- Getting started: start.md
+  #- Quickstart:
+    #- ATC Positions: quickstart/atc_position.md
+    #- ATIS: quickstart/atis.md
+    #- Airspaces: quickstart/airspaces.md
+    #- Regional Aerodrome: quickstart/regaerodrome.md
+  #- Swiss Radar:
+    #- LOAs: swissradar/loas.md
+    #- Overview: swissradar/overview.md
+    #- Procedures: swissradar/procedures.md
+  #- Zürich FIR:
+    #- Overview: zurichfir/zurichfir.md
+    #- Airports:
+      #- Lugano (LSZA): zurichfir/airports/lsza.md
+      #- Bern (LSZB): zurichfir/airports/lszb.md
+      #- Grenchen (LSZG): zurichfir/airports/lszg.md
+      #- Zürich (LSZH): zurichfir/airports/lszh.md
+      #- St. Gallen (LSZR): zurichfir/airports/lszr.md
+      #- Samedan (LSZS): zurichfir/airports/lszs.md
+      #- Friedrichshafen (EDNY): zurichfir/airports/edny.md
+  #- Geneva FIR:
+    #- Overview: genevafir/genevafir.md
+    #- Airports:
+      #- Les Eplatures (LSGC): genevafir/airports/lsgc.md
+      #- Geneva (LSGG): genevafir/airports/lsgg.md
+      #- Sion (LSGS): genevafir/airports/lsgs.md
+  - IVAC2:
+    - Introduction: ivac2/introduction.md
+    - Maps: ivac2/maps.md
+    - Presets & Insets: ivac2/presets.md
+    - Labels: ivac2/labels.md
+    - ATC Info Box: ivac2/atcinfo.md
+    - DCL Datalink Clearance: ivac2/dcl.md
+    - Next Frequency: ivac2/nextfreq.md
+  - Contribute: contribute/index.md
