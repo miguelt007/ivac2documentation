@@ -1,30 +1,7 @@
-# Material <small>for MkDocs</small>
+# IVAO Portugal <small>documentação para controladores</small>
 
-## Beautiful project documentation
+## Bem-vindo!
 
-Material is a theme for [MkDocs][1], an excellent static site generator geared
-towards project documentation. It is built using Google's [Material Design][2]
-guidelines.
+Este é um espaço de partilha de conhecimento. Tens ao teu dispor as mais diversas informações sobre o ivac2 assim como informaçoes sobre as nossas diversas FIR's.
 
-[![Material for MkDocs](images/material.png)](images/material.png)
-
-  [1]: http://www.mkdocs.org
-  [2]: https://www.google.com/design/spec/material-design
-
-## Quick start
-
-Install the latest version of Material with `pip`:
-
-``` sh
-pip install mkdocs-material
-```
-
-Add the following line to your `mkdocs.yml`:
-
-``` yaml
-theme: 'material'
-```
-
-For detailed instructions see the [getting started guide][3].
-
-  [3]: getting-started.md
+[![IVAO Portugal Logo](images/pt.png)](images/pt.png)

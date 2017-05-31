@@ -1,30 +1,11 @@
-# Material <small>for MkDocs</small>
+# IVAC 2
 
-## Beautiful project documentation
+## Introdução
 
-Material is a theme for [MkDocs][1], an excellent static site generator geared
-towards project documentation. It is built using Google's [Material Design][2]
-guidelines.
+Nesta secção pretendemos ajudar-te a perceber um pouco melhor a integração do novo software com a as nossas FIR's. Este website **não substitui** um manual sobre como usar o IVAC2.
 
-[![Material for MkDocs](images/material.png)](images/material.png)
+Qualquer membro pode já abrir qualquer tipo de posição de controlo. Os ficheiros relativos às firs **poderam ainda sofrer alguns updates** nesta primeira fase, posteriormente iram ser lançados updates relativos a mudanças de airacs. Ao contrário do que acontecia com o IVAC 1, agora não é possivel alterar tipos de cores, sendo que estas são defenidas pela data preparation team, o utlizador pode apenas jogar com os brilhos, iremos explicar como proceder, mais à frente.
 
-  [1]: http://www.mkdocs.org
-  [2]: https://www.google.com/design/spec/material-design
+Caso tenhas algum tipo de problema, ou detetes alguma falha, não exites em nos contactar.
 
-## Quick start
-
-Install the latest version of Material with `pip`:
-
-``` sh
-pip install mkdocs-material
-```
-
-Add the following line to your `mkdocs.yml`:
-
-``` yaml
-theme: 'material'
-```
-
-For detailed instructions see the [getting started guide][3].
-
-  [3]: getting-started.md
+[![Radar LPPC IVAC2](images/ivac2pt.png)](images/ivac2pt.png)
